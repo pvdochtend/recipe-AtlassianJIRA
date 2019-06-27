@@ -1,0 +1,17 @@
+{
+  "id": "Atlassian JIRA",
+  "name": "Atlassian JIRA",
+  "version": "1.0.0",
+  "description": "JIRA",
+  "main": "index.js",
+  "author": "Peter van den Ochtend <pvdochtend@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamId}.atlassian.net",
+    "hasNotificationSound": true,
+    "hasDirectMessages": true,
+    "hasIndirectMessages": true,
+    "hasTeamId": true,
+    "urlInputSuffix": ".atlassian.net"
+  }
+}
